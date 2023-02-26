@@ -89,4 +89,12 @@ display: inline;
     height: 100vh;
     height:50vh;
 }
+    .countainer{
+        display:flex;
+}
+@media(max-width:599px){
+    .hi img{
+        position:static;
+        display: none;
+    }
 }
