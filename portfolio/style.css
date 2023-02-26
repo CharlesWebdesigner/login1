@@ -92,6 +92,7 @@ display: inline;
     .countainer{
         display:flex;
 }
+}
 @media(max-width:599px){
     .hi img{
         position:static;
