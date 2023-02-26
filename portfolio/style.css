@@ -1,0 +1,90 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.countainer{
+    background: linear-gradient(rgba(4,9,30,0.7));
+    overflow: scroll;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.cover img{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    text-align: left;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+.hi img{
+    position:fixed;
+    width: 500x;
+    height: 100vh;
+    margin: 0 auto;
+    right: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+}
+.left{
+    
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.about{
+    margin-top: 5%;
+    position: absolute;
+}
+.dd{
+    position: relative;
+    display: inline-block;
+}
+.material-symbols-outlined{
+    padding: 15px;
+    text-align: center;
+    background-color: #173459;
+    border: none;
+    width: 200px;
+    color: #f8f9f9;
+}
+.dd-content{
+    position: block;
+    display: none;
+    width: 100%;
+    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.30),0 14px 11px rgba(0, 0 ,0, 0.22);
+}
+.dd:hover > .dd-content{
+display: inline;
+
+}
+.dd-content > a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color:#fff;
+}
+.dd-content > a:hover{
+    color: #fff;
+    background: #903c56;
+}
+@media(min-width:600px){
+.cover img{
+    width: 100%;
+}
+.hi img{
+    width: 500px;
+    height: 100vh;
+}
+}
